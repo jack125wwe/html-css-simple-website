@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 1000px;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/vasily-koloda-8CqDvPuo_kI-unsplash.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 40px 40px 20px 40px;
+    /* border: 2px solid black; */
+}
+
+.logo a {
+    display: flex;
+    text-decoration: none;
+    gap: 5px;
+    /* border: 2px solid black; */
+}
+
+.logo a:hover {
+    .logo-img {
+        height: 51px;
+        width: auto;
+    }
+
+    .text-logo {
+        font-size: 51px;
+    }
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+}
+
+.text-logo {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: hsl(105, 100%, 99%);
+    padding: 10px;
+}
+
+.links a:hover {
+    border-bottom: 3px solid red;
+    transition: 0.1s;
+    transition-timing-function: linear;
+}
+
+/* HEAD CONTENT */
+
+.head-content {
+    height: 89%;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-container {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-container h1 {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 4.9em;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.heading-container p {
+    color: white;
+    font-size: 1.3em;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.heading-container button {
+    color: white;
+    font-size: 1.6em;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 15px;
+    margin: 40px 0px 20px 0px;
+    cursor: pointer;
+}
